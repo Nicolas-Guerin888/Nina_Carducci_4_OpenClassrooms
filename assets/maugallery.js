@@ -58,7 +58,6 @@
     });
 
     $(".gallery").on("click", ".nav-link", $.fn.mauGallery.methods.filterByTag);
-/************************************** */
     $(document).on("click", ".mg-prev", function() {
         $.fn.mauGallery.methods.prevImage(options.lightboxId);
     });
@@ -66,7 +65,6 @@
     $(document).on("click", ".mg-next", function() {
         $.fn.mauGallery.methods.nextImage(options.lightboxId);
     });
-/*************************************** */
   };
   $.fn.mauGallery.methods = {
     createRowWrapper(element) {
